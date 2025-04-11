@@ -1,0 +1,143 @@
+{
+  "txHash": "8ec42305bf52172e2fd946487d5e62670318f65b8d511ff39365a729a562ad7f",
+  "cbor": "aa00d901028982582002aa5beb172c77d7d4e261ed1ff3e730650229be1c1e0a4fa21de5e033367fca0182582002aa5beb172c77d7d4e261ed1ff3e730650229be1c1e0a4fa21de5e033367fca0282582002aa5beb172c77d7d4e261ed1ff3e730650229be1c1e0a4fa21de5e033367fca0382582002aa5beb172c77d7d4e261ed1ff3e730650229be1c1e0a4fa21de5e033367fca0482582002aa5beb172c77d7d4e261ed1ff3e730650229be1c1e0a4fa21de5e033367fca0582582018919f380382db672f85b15a9a887911edc41f154ccf32904edfdb0eed6f8bb60282582018919f380382db672f85b15a9a887911edc41f154ccf32904edfdb0eed6f8bb6038258204f05e74e2b45a19f681707f6bce9679745230073e5f4f07c69f4595dbd10cad901825820c1d253e337e2a863fc0ba9f2a21aa04df4dc8281229d2c144f5a9680f059e2e6000183a300581d71021a32ee5621d4e94df1d9bef6baa284a7cc75ba51bb5fb804c6c47101821a1a6f585da1581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671a14f446a65644f726465725469636b657401028201d8185897d8799fd87b9f1a17d784001a1a04f193ffd8799fd8799f581c1cecfd088bf1f099ece57b2f99a3ab031b6ac36339a9398e080826d6ffd8799fd8799fd8799f581ce0989f73f4af33b8d9b6654ebf6e76908d0892a2b600ec283541fbddffffffffd8799f1a001e84801a0010fc8fff1b0000019617b8ef30581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671ff835839011cecfd088bf1f099ece57b2f99a3ab031b6ac36339a9398e080826d6e0989f73f4af33b8d9b6654ebf6e76908d0892a2b600ec283541fbdd1a001108825820eef3a1c2c4902184567ab3ff4d4fdefebb8eb5dc8d0aaa800960c55bef44ba66825839011cecfd088bf1f099ece57b2f99a3ab031b6ac36339a9398e080826d6e0989f73f4af33b8d9b6654ebf6e76908d0892a2b600ec283541fbdd1a0d18c050021a00058e67031a0918508b081a09184fd709a1581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671a14f446a65644f726465725469636b6574010b58202dfca6b59f3040fbafad774f4a4331d43598083f1f8c163feecf522b793066490dd901028182582002aa5beb172c77d7d4e261ed1ff3e730650229be1c1e0a4fa21de5e033367fca010ed9010281581c1cecfd088bf1f099ece57b2f99a3ab031b6ac36339a9398e080826d612d90102838258201a757d9840dfd77f5aa0223245b553d412328dadb10abc5225f4f8e53ae90ee0018258208ebefdad0eee32afa2ac932a536167fe8826ff07947508acb8b7dab4b2242dc000825820dda782308f5dfbfa31c757b459379ec648b224bd59b53223260730b2d7ef6f3b00",
+  "inputs": [
+    {
+      "transactionId": "02aa5beb172c77d7d4e261ed1ff3e730650229be1c1e0a4fa21de5e033367fca",
+      "index": 1
+    },
+    {
+      "transactionId": "02aa5beb172c77d7d4e261ed1ff3e730650229be1c1e0a4fa21de5e033367fca",
+      "index": 2
+    },
+    {
+      "transactionId": "02aa5beb172c77d7d4e261ed1ff3e730650229be1c1e0a4fa21de5e033367fca",
+      "index": 3
+    },
+    {
+      "transactionId": "02aa5beb172c77d7d4e261ed1ff3e730650229be1c1e0a4fa21de5e033367fca",
+      "index": 4
+    },
+    {
+      "transactionId": "02aa5beb172c77d7d4e261ed1ff3e730650229be1c1e0a4fa21de5e033367fca",
+      "index": 5
+    },
+    {
+      "transactionId": "18919f380382db672f85b15a9a887911edc41f154ccf32904edfdb0eed6f8bb6",
+      "index": 2
+    },
+    {
+      "transactionId": "18919f380382db672f85b15a9a887911edc41f154ccf32904edfdb0eed6f8bb6",
+      "index": 3
+    },
+    {
+      "transactionId": "4f05e74e2b45a19f681707f6bce9679745230073e5f4f07c69f4595dbd10cad9",
+      "index": 1
+    },
+    {
+      "transactionId": "c1d253e337e2a863fc0ba9f2a21aa04df4dc8281229d2c144f5a9680f059e2e6",
+      "index": 0
+    }
+  ],
+  "outputs": [
+    {
+      "address": "addr1wypp5vhw2csaf62d78vmaa4652z20nr4hfgmkhacqnrvgug2vdyq4",
+      "amounts": [
+        {
+          "unit": "lovelace",
+          "policyId": null,
+          "assetName": "lovelace",
+          "assetNameBytes": null,
+          "quantity": 443504733
+        },
+        {
+          "unit": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671.446a65644f726465725469636b6574",
+          "policyId": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671",
+          "assetName": "DjedOrderTicket",
+          "assetNameBytes": "RGplZE9yZGVyVGlja2V0",
+          "quantity": 1
+        }
+      ],
+      "datumHash": null,
+      "inlineDatum": "d8799fd87b9f1a17d784001a1a04f193ffd8799fd8799f581c1cecfd088bf1f099ece57b2f99a3ab031b6ac36339a9398e080826d6ffd8799fd8799fd8799f581ce0989f73f4af33b8d9b6654ebf6e76908d0892a2b600ec283541fbddffffffffd8799f1a001e84801a0010fc8fff1b0000019617b8ef30581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671ff",
+      "scriptRef": null
+    },
+    {
+      "address": "addr1qywwelgg30clpx0vu4ajlxdr4vp3k6krvvu6jwvwpqyzd4hqnz0h8a90xwudndn9f6lkua5s35yf9g4kqrkzsd2pl0wsscvsy5",
+      "amounts": [
+        {
+          "unit": "lovelace",
+          "policyId": null,
+          "assetName": "lovelace",
+          "assetNameBytes": null,
+          "quantity": 1116290
+        }
+      ],
+      "datumHash": "eef3a1c2c4902184567ab3ff4d4fdefebb8eb5dc8d0aaa800960c55bef44ba66",
+      "inlineDatum": null,
+      "scriptRef": null
+    },
+    {
+      "address": "addr1qywwelgg30clpx0vu4ajlxdr4vp3k6krvvu6jwvwpqyzd4hqnz0h8a90xwudndn9f6lkua5s35yf9g4kqrkzsd2pl0wsscvsy5",
+      "amounts": [
+        {
+          "unit": "lovelace",
+          "policyId": null,
+          "assetName": "lovelace",
+          "assetNameBytes": null,
+          "quantity": 219725904
+        }
+      ],
+      "datumHash": null,
+      "inlineDatum": null,
+      "scriptRef": null
+    }
+  ],
+  "fee": 364135,
+  "ttl": 152588427,
+  "certificates": [],
+  "withdrawals": null,
+  "update": null,
+  "auxiliaryDataHash": null,
+  "validityIntervalStart": 152588247,
+  "mint": [
+    {
+      "unit": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671.446a65644f726465725469636b6574",
+      "policyId": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671",
+      "assetName": "DjedOrderTicket",
+      "assetNameBytes": "RGplZE9yZGVyVGlja2V0",
+      "quantity": 1
+    }
+  ],
+  "scriptDataHash": "2dfca6b59f3040fbafad774f4a4331d43598083f1f8c163feecf522b79306649",
+  "collateralInputs": [
+    {
+      "transactionId": "02aa5beb172c77d7d4e261ed1ff3e730650229be1c1e0a4fa21de5e033367fca",
+      "index": 1
+    }
+  ],
+  "requiredSigners": [
+    "1cecfd088bf1f099ece57b2f99a3ab031b6ac36339a9398e080826d6"
+  ],
+  "netowrkId": 0,
+  "collateralReturn": null,
+  "totalCollateral": null,
+  "referenceInputs": [
+    {
+      "transactionId": "1a757d9840dfd77f5aa0223245b553d412328dadb10abc5225f4f8e53ae90ee0",
+      "index": 1
+    },
+    {
+      "transactionId": "8ebefdad0eee32afa2ac932a536167fe8826ff07947508acb8b7dab4b2242dc0",
+      "index": 0
+    },
+    {
+      "transactionId": "dda782308f5dfbfa31c757b459379ec648b224bd59b53223260730b2d7ef6f3b",
+      "index": 0
+    }
+  ],
+  "votingProcedures": null,
+  "proposalProcedures": null,
+  "currentTreasuryValue": null,
+  "donation": null
+}

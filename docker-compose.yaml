@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  api:
+    build:
+      context: .
+      dockerfile: compose.dockerfile
+    ports:
+      - 8080:8080
+    environment:
+      - SPRING_PROFILES_ACTIVE=local-db
+      - DB_URL=jdbc:h2:/data/db
+      - CARDANO_NODE_HOST=${CARDANO_NODE_HOST}
+      - CARDANO_NODE_PORT=${CARDANO_NODE_PORT}
+      - BLOCKFROST_KEY=${BLOCKFROST_KEY}
+    volumes:
+      - ./data:/data
+    restart: always

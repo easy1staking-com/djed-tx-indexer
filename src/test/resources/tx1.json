@@ -1,0 +1,188 @@
+{
+  "txHash": "5f260060bcc51858a78c4b3b80125c03cd4fcc33f7522b10cf7803bc3827e547",
+  "cbor": "aa00d9010283825820480bc4aedf63bab74f4ba10980aede79d256f2a05cfa960a55bef270fb912e1b018258204fd4e9a3cc00fcadae1731a6623e4e188b1a4e5bcce5330226ebb068b634f5ee01825820bdab751231c0ad01238367082709c651ca9cb49c001263ac2475fd3aa74cd1c6010183a300581d71021a32ee5621d4e94df1d9bef6baa284a7cc75ba51bb5fb804c6c47101821a00cf87dfa2581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671a14f446a65644f726465725469636b657401581c8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61a14c5368656e4d6963726f5553441b0000000107075abb028201d8185896d8799fd87c9f1b0000000107075abbffd8799fd8799f581cda5abd13ee5452d3805e63b352ad38f5a2854c3ba32d855dcd77f83fffd8799fd8799fd8799f581ca0b4324b7f8b917b1e5f52facfb5d570a1a6c40cd8c4e7e6016f96eeffffffffd8799f1a001e84801a0011a241ff1b000001960d3f56e8581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671ff83583901da5abd13ee5452d3805e63b352ad38f5a2854c3ba32d855dcd77f83fa0b4324b7f8b917b1e5f52facfb5d570a1a6c40cd8c4e7e6016f96ee1a0011088258206867851f0103da84640db83e25f766abc97a4423165fc72a80fcee92d58ea02d82583901da5abd13ee5452d3805e63b352ad38f5a2854c3ba32d855dcd77f83fa0b4324b7f8b917b1e5f52facfb5d570a1a6c40cd8c4e7e6016f96ee1a05a2b6f8021a00057bfc031a0915a20e081a0915a15a09a1581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671a14f446a65644f726465725469636b6574010b582068e838ffdd4ec9f8335dcb72689b31566a0dc0dacc36f285c504dd1cf81689710dd9010281825820480bc4aedf63bab74f4ba10980aede79d256f2a05cfa960a55bef270fb912e1b010ed9010281581cda5abd13ee5452d3805e63b352ad38f5a2854c3ba32d855dcd77f83f12d90102838258201a757d9840dfd77f5aa0223245b553d412328dadb10abc5225f4f8e53ae90ee0018258206aabb1a58f549e01c75e3b3fb8d33d7410f65044f67d343ccd4c51c6ed8fc88200825820a4d6f72b6f1e49b7608c1e20389de4be5fef0a708ca8e4c745d9bbe3942344ff00",
+  "inputs": [
+    {
+      "transactionId": "480bc4aedf63bab74f4ba10980aede79d256f2a05cfa960a55bef270fb912e1b",
+      "index": 1
+    },
+    {
+      "transactionId": "4fd4e9a3cc00fcadae1731a6623e4e188b1a4e5bcce5330226ebb068b634f5ee",
+      "index": 1
+    },
+    {
+      "transactionId": "bdab751231c0ad01238367082709c651ca9cb49c001263ac2475fd3aa74cd1c6",
+      "index": 1
+    }
+  ],
+  "outputs": [
+    {
+      "address": "addr1wypp5vhw2csaf62d78vmaa4652z20nr4hfgmkhacqnrvgug2vdyq4",
+      "amounts": [
+        {
+          "unit": "lovelace",
+          "policyId": null,
+          "assetName": "lovelace",
+          "assetNameBytes": null,
+          "quantity": 13600735
+        },
+        {
+          "unit": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671.446a65644f726465725469636b6574",
+          "policyId": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671",
+          "assetName": "DjedOrderTicket",
+          "assetNameBytes": "RGplZE9yZGVyVGlja2V0",
+          "quantity": 1
+        },
+        {
+          "unit": "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61.5368656e4d6963726f555344",
+          "policyId": "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61",
+          "assetName": "ShenMicroUSD",
+          "assetNameBytes": "U2hlbk1pY3JvVVNE",
+          "quantity": 4412889787
+        }
+      ],
+      "datumHash": null,
+      "inlineDatum": "d8799fd87c9f1b0000000107075abbffd8799fd8799f581cda5abd13ee5452d3805e63b352ad38f5a2854c3ba32d855dcd77f83fffd8799fd8799fd8799f581ca0b4324b7f8b917b1e5f52facfb5d570a1a6c40cd8c4e7e6016f96eeffffffffd8799f1a001e84801a0011a241ff1b000001960d3f56e8581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671ff",
+      "datum": {
+        "constructor": 0,
+        "fields": [
+          {
+            "constructor": 3,
+            "fields": [
+              {
+                "int": 4412889787
+              }
+            ]
+          },
+          {
+            "constructor": 0,
+            "fields": [
+              {
+                "constructor": 0,
+                "fields": [
+                  {
+                    "bytes": "da5abd13ee5452d3805e63b352ad38f5a2854c3ba32d855dcd77f83f"
+                  }
+                ]
+              },
+              {
+                "constructor": 0,
+                "fields": [
+                  {
+                    "constructor": 0,
+                    "fields": [
+                      {
+                        "constructor": 0,
+                        "fields": [
+                          {
+                            "bytes": "a0b4324b7f8b917b1e5f52facfb5d570a1a6c40cd8c4e7e6016f96ee"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "constructor": 0,
+            "fields": [
+              {
+                "int": 2000000
+              },
+              {
+                "int": 1155649
+              }
+            ]
+          },
+          {
+
+            "int": 1743978977000
+          },
+          {
+            "bytes": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671"
+          }
+        ]
+      },
+      "scriptRef": null
+    },
+    {
+      "address": "addr1q8d940gnae2995uqte3mx54d8r669p2v8w3jmp2ae4mls0aqkseyklutj9a3uh6jlt8mt4ts5xnvgrxccnn7vqt0jmhqzkx0d0",
+      "amounts": [
+        {
+          "unit": "lovelace",
+          "policyId": null,
+          "assetName": "lovelace",
+          "assetNameBytes": null,
+          "quantity": 1116290
+        }
+      ],
+      "datumHash": "6867851f0103da84640db83e25f766abc97a4423165fc72a80fcee92d58ea02d",
+      "inlineDatum": null,
+      "scriptRef": null
+    },
+    {
+      "address": "addr1q8d940gnae2995uqte3mx54d8r669p2v8w3jmp2ae4mls0aqkseyklutj9a3uh6jlt8mt4ts5xnvgrxccnn7vqt0jmhqzkx0d0",
+      "amounts": [
+        {
+          "unit": "lovelace",
+          "policyId": null,
+          "assetName": "lovelace",
+          "assetNameBytes": null,
+          "quantity": 94549752
+        }
+      ],
+      "datumHash": null,
+      "inlineDatum": null,
+      "scriptRef": null
+    }
+  ],
+  "fee": 359420,
+  "ttl": 152412686,
+  "certificates": [],
+  "withdrawals": null,
+  "update": null,
+  "auxiliaryDataHash": null,
+  "validityIntervalStart": 152412506,
+  "mint": [
+    {
+      "unit": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671.446a65644f726465725469636b6574",
+      "policyId": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671",
+      "assetName": "DjedOrderTicket",
+      "assetNameBytes": "RGplZE9yZGVyVGlja2V0",
+      "quantity": 1
+    }
+  ],
+  "scriptDataHash": "68e838ffdd4ec9f8335dcb72689b31566a0dc0dacc36f285c504dd1cf8168971",
+  "collateralInputs": [
+    {
+      "transactionId": "480bc4aedf63bab74f4ba10980aede79d256f2a05cfa960a55bef270fb912e1b",
+      "index": 1
+    }
+  ],
+  "requiredSigners": [
+    "da5abd13ee5452d3805e63b352ad38f5a2854c3ba32d855dcd77f83f"
+  ],
+  "netowrkId": 0,
+  "collateralReturn": null,
+  "totalCollateral": null,
+  "referenceInputs": [
+    {
+      "transactionId": "1a757d9840dfd77f5aa0223245b553d412328dadb10abc5225f4f8e53ae90ee0",
+      "index": 1
+    },
+    {
+      "transactionId": "6aabb1a58f549e01c75e3b3fb8d33d7410f65044f67d343ccd4c51c6ed8fc882",
+      "index": 0
+    },
+    {
+      "transactionId": "a4d6f72b6f1e49b7608c1e20389de4be5fef0a708ca8e4c745d9bbe3942344ff",
+      "index": 0
+    }
+  ],
+  "votingProcedures": null,
+  "proposalProcedures": null,
+  "currentTreasuryValue": null,
+  "donation": null
+}

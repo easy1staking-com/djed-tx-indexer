@@ -1,0 +1,188 @@
+{
+  "txHash": "68f3c786d179294d4d0ad1adc0eb646480476b0f5db44cd7d765528ef1d63b3a",
+  "cbor": "aa00d9010281825820164b51dc8de46df7fe0215f30e32c6c2068974004344bdabb1b43389506afee7010183a300581d71021a32ee5621d4e94df1d9bef6baa284a7cc75ba51bb5fb804c6c47101821a0538c0e7a1581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671a14f446a65644f726465725469636b657401028201d8185893d8799fd8799f1a02faf0801a04ce5a1dffd8799fd8799f581c2917f6d90480427dc141f2a994f01a0778ed559cfc9d0f590629ae17ffd8799fd8799fd8799f581cb7d2352a2a8a6661df9657f3fbe93a9e3ca77f9c03ec99eef2025f50ffffffffd8799f191388190c4bff1b0000019623a8ef20581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671ff835839012917f6d90480427dc141f2a994f01a0778ed559cfc9d0f590629ae17b7d2352a2a8a6661df9657f3fbe93a9e3ca77f9c03ec99eef2025f501a001108825820e32767124e2128ee06434f6a8ba04fab6755eb2f2230d4e1af42cf1be12cfaf6825839012917f6d90480427dc141f2a994f01a0778ed559cfc9d0f590629ae17b7d2352a2a8a6661df9657f3fbe93a9e3ca77f9c03ec99eef2025f501a0399b649021a00054fbd031a091b5ee1081a091b5e2d09a1581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671a14f446a65644f726465725469636b6574010b58204c9b90024d06a7c8e9926b88a55182d7d9210558c29cb097923fe89376ea405f0dd901028182582072ab0634127ea83e6dbe6c1870681f347413c218e2fff38617c71c18785bae35010ed9010281581c2917f6d90480427dc141f2a994f01a0778ed559cfc9d0f590629ae1712d90102838258201a757d9840dfd77f5aa0223245b553d412328dadb10abc5225f4f8e53ae90ee00182582057be65c9283be06f38da5eeabc372d121ee419bca5e5b386ec670f819fb07e02008258208d99e6b11ea3b52dfaee4507a7cadde12c3101277d0bf77f6a03bb0e5593808900",
+  "inputs": [
+    {
+      "description": "this is the user utxo input",
+      "transactionId": "164b51dc8de46df7fe0215f30e32c6c2068974004344bdabb1b43389506afee7",
+      "index": 1
+    }
+  ],
+  "outputs": [
+    {
+      "description": "script addres: where the mint/burn request goes",
+      "address": "addr1wypp5vhw2csaf62d78vmaa4652z20nr4hfgmkhacqnrvgug2vdyq4",
+      "amounts": [
+        {
+          "unit": "lovelace",
+          "policyId": null,
+          "assetName": "lovelace",
+          "assetNameBytes": null,
+          "quantity": 87605479
+        },
+        {
+          "dscription": "mint of the order ticket.",
+          "unit": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671.446a65644f726465725469636b6574",
+          "policyId": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671",
+          "assetName": "DjedOrderTicket",
+          "assetNameBytes": "RGplZE9yZGVyVGlja2V0",
+          "quantity": 1
+        }
+      ],
+      "datumHash": null,
+      "inlineDatum": "d8799fd8799f1a02faf0801a04ce5a1dffd8799fd8799f581c2917f6d90480427dc141f2a994f01a0778ed559cfc9d0f590629ae17ffd8799fd8799fd8799f581cb7d2352a2a8a6661df9657f3fbe93a9e3ca77f9c03ec99eef2025f50ffffffffd8799f191388190c4bff1b0000019623a8ef20581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671ff",
+      "datum": {
+        "constructor": 0,
+        "fields": [
+          {
+            "constructor": 0,
+            "fields": [
+              {
+                "description": "the djed requested",
+                "int": 50000000
+              },
+              {
+                "description": "this is the max amount user wants to spend. cover for swap and fees, min utxo on the way back",
+                "int": 80632349
+              }
+            ]
+          },
+          {
+            "description": "the user address to return the funds to",
+            "constructor": 0,
+            "fields": [
+              {
+                "constructor": 0,
+                "fields": [
+                  {
+                    "bytes": "2917f6d90480427dc141f2a994f01a0778ed559cfc9d0f590629ae17"
+                  }
+                ]
+              },
+              {
+                "constructor": 0,
+                "fields": [
+                  {
+                    "constructor": 0,
+                    "fields": [
+                      {
+                        "constructor": 0,
+                        "fields": [
+                          {
+                            "bytes": "b7d2352a2a8a6661df9657f3fbe93a9e3ca77f9c03ec99eef2025f50"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "user desired price, but also matches w/ orcle price at the ref input below",
+            "constructor": 0,
+            "fields": [
+              {
+                "int": 5000
+              },
+              {
+                "int": 3147
+              }
+            ]
+          },
+          {
+            "description": "three minutes from now",
+            "int": 1744354996000
+          },
+          {
+            "descirption": "policy id of the order ticket",
+            "bytes": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671"
+          }
+        ]
+      },
+      "scriptRef": null
+    },
+    {
+      "description": "funds sent tback to user, with some data attached to the utxo.",
+      "address": "addr1qy530akeqjqyylwpg8e2n98srgrh3m24nn7f6r6eqc56u9ah6g6j5252vesal9jh70a7jw578jnhl8qrajv7ausztagqln2sxc",
+      "amounts": [
+        {
+          "unit": "lovelace",
+          "policyId": null,
+          "assetName": "lovelace",
+          "assetNameBytes": null,
+          "quantity": 1116290
+        }
+      ],
+      "datumHash": "e32767124e2128ee06434f6a8ba04fab6755eb2f2230d4e1af42cf1be12cfaf6",
+      "inlineDatum": null,
+      "scriptRef": null
+    },
+    {
+      "decription": "this is the change address",
+      "address": "addr1qy530akeqjqyylwpg8e2n98srgrh3m24nn7f6r6eqc56u9ah6g6j5252vesal9jh70a7jw578jnhl8qrajv7ausztagqln2sxc",
+      "amounts": [
+        {
+          "unit": "lovelace",
+          "policyId": null,
+          "assetName": "lovelace",
+          "assetNameBytes": null,
+          "quantity": 60405321
+        }
+      ],
+      "datumHash": null,
+      "inlineDatum": null,
+      "scriptRef": null
+    }
+  ],
+  "fee": 348093,
+  "ttl": 152788705,
+  "certificates": [],
+  "withdrawals": null,
+  "update": null,
+  "auxiliaryDataHash": null,
+  "validityIntervalStart": 152788525,
+  "mint": [
+    {
+      "unit": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671.446a65644f726465725469636b6574",
+      "policyId": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671",
+      "assetName": "DjedOrderTicket",
+      "assetNameBytes": "RGplZE9yZGVyVGlja2V0",
+      "quantity": 1
+    }
+  ],
+  "scriptDataHash": "4c9b90024d06a7c8e9926b88a55182d7d9210558c29cb097923fe89376ea405f",
+  "collateralInputs": [
+    {
+      "transactionId": "72ab0634127ea83e6dbe6c1870681f347413c218e2fff38617c71c18785bae35",
+      "index": 1
+    }
+  ],
+  "requiredSigners": [
+    "2917f6d90480427dc141f2a994f01a0778ed559cfc9d0f590629ae17"
+  ],
+  "netowrkId": 0,
+  "collateralReturn": null,
+  "totalCollateral": null,
+  "referenceInputs": [
+    {
+      "description": "ticket mint",
+      "transactionId": "1a757d9840dfd77f5aa0223245b553d412328dadb10abc5225f4f8e53ae90ee0",
+      "index": 1
+    },
+    {
+      "description": "oracle ref input",
+      "transactionId": "57be65c9283be06f38da5eeabc372d121ee419bca5e5b386ec670f819fb07e02",
+      "index": 0
+    },
+    {
+      "transactionId": "8d99e6b11ea3b52dfaee4507a7cadde12c3101277d0bf77f6a03bb0e55938089",
+      "index": 0
+    }
+  ],
+  "votingProcedures": null,
+  "proposalProcedures": null,
+  "currentTreasuryValue": null,
+  "donation": null
+}

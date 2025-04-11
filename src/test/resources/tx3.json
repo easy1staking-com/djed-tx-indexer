@@ -1,0 +1,129 @@
+{
+  "txHash": "6f31cfb47bcaa4a60a7ea692c11368a0dd43dabebcc81bd45f6e7a0c4a6d7b63",
+  "cbor": "aa00d90102828258209996d43df0d20dd24c8d23ed5f7bbfb1de0887d5d14d527a41ccb9827deb2973018258209996d43df0d20dd24c8d23ed5f7bbfb1de0887d5d14d527a41ccb9827deb2973020183a300581d71021a32ee5621d4e94df1d9bef6baa284a7cc75ba51bb5fb804c6c47101821a0a7f3ff7a1581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671a14f446a65644f726465725469636b657401028201d8185893d8799fd8799f1a05f5e1001a0a14d92dffd8799fd8799f581ca7f86b99a649e2c44b9c06d09e7b3a9a714acdf107d3dbaecda33457ffd8799fd8799fd8799f581cb410cc132f221e657719d5633660cbf20411a226e0c1bf703eecc249ffffffffd8799f192710191771ff1b00000196205af8b8581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671ff83583901a7f86b99a649e2c44b9c06d09e7b3a9a714acdf107d3dbaecda33457b410cc132f221e657719d5633660cbf20411a226e0c1bf703eecc2491a00110882582026ffeeec27c453435582e52bb4ac95d65279536e87bb2f297c42f178cb73e23e82583901a7f86b99a649e2c44b9c06d09e7b3a9a714acdf107d3dbaecda33457b410cc132f221e657719d5633660cbf20411a226e0c1bf703eecc249821a00ff3faaa1581c8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61a24c446a65644d6963726f5553441a09d5b3404c5368656e4d6963726f5553441a093d1cc0021a00058224031a091a8650081a091a859c09a1581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671a14f446a65644f726465725469636b6574010b58200f41adfa561855b2381120955e13299ce287011527d3a1b02b18455e803542190dd9010281825820d3bf2ab6f407e124d4458674eb7b4597a2c1694f5da0de398ab2ab133288e589020ed9010281581ca7f86b99a649e2c44b9c06d09e7b3a9a714acdf107d3dbaecda3345712d90102838258201a757d9840dfd77f5aa0223245b553d412328dadb10abc5225f4f8e53ae90ee001825820496667849c741c3ed2ff3eb082939e0d89f1f8df58d28dc34f484fcbb66fc75d00825820a777500fc281a6f8d6dde8ea22dbf8eec542c3dcc5357e98d9862e31fc4e162a00",
+  "inputs": [
+    {
+      "transactionId": "9996d43df0d20dd24c8d23ed5f7bbfb1de0887d5d14d527a41ccb9827deb2973",
+      "index": 1
+    },
+    {
+      "transactionId": "9996d43df0d20dd24c8d23ed5f7bbfb1de0887d5d14d527a41ccb9827deb2973",
+      "index": 2
+    }
+  ],
+  "outputs": [
+    {
+      "address": "addr1wypp5vhw2csaf62d78vmaa4652z20nr4hfgmkhacqnrvgug2vdyq4",
+      "amounts": [
+        {
+          "unit": "lovelace",
+          "policyId": null,
+          "assetName": "lovelace",
+          "assetNameBytes": null,
+          "quantity": 176111607
+        },
+        {
+          "unit": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671.446a65644f726465725469636b6574",
+          "policyId": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671",
+          "assetName": "DjedOrderTicket",
+          "assetNameBytes": "RGplZE9yZGVyVGlja2V0",
+          "quantity": 1
+        }
+      ],
+      "datumHash": null,
+      "inlineDatum": "d8799fd8799f1a05f5e1001a0a14d92dffd8799fd8799f581ca7f86b99a649e2c44b9c06d09e7b3a9a714acdf107d3dbaecda33457ffd8799fd8799fd8799f581cb410cc132f221e657719d5633660cbf20411a226e0c1bf703eecc249ffffffffd8799f192710191771ff1b00000196205af8b8581c04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671ff",
+      "scriptRef": null
+    },
+    {
+      "address": "addr1qxnls6ue5ey793ztnsrdp8nm82d8zjkd7yra8kawek3ng4a5zrxpxtezrejhwxw4vvmxpjljqsg6yfhqcxlhq0hvcfysquk05t",
+      "amounts": [
+        {
+          "unit": "lovelace",
+          "policyId": null,
+          "assetName": "lovelace",
+          "assetNameBytes": null,
+          "quantity": 1116290
+        }
+      ],
+      "datumHash": "26ffeeec27c453435582e52bb4ac95d65279536e87bb2f297c42f178cb73e23e",
+      "inlineDatum": null,
+      "scriptRef": null
+    },
+    {
+      "address": "addr1qxnls6ue5ey793ztnsrdp8nm82d8zjkd7yra8kawek3ng4a5zrxpxtezrejhwxw4vvmxpjljqsg6yfhqcxlhq0hvcfysquk05t",
+      "amounts": [
+        {
+          "unit": "lovelace",
+          "policyId": null,
+          "assetName": "lovelace",
+          "assetNameBytes": null,
+          "quantity": 16727978
+        },
+        {
+          "unit": "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61.446a65644d6963726f555344",
+          "policyId": "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61",
+          "assetName": "DjedMicroUSD",
+          "assetNameBytes": "RGplZE1pY3JvVVNE",
+          "quantity": 165000000
+        },
+        {
+          "unit": "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61.5368656e4d6963726f555344",
+          "policyId": "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61",
+          "assetName": "ShenMicroUSD",
+          "assetNameBytes": "U2hlbk1pY3JvVVNE",
+          "quantity": 155000000
+        }
+      ],
+      "datumHash": null,
+      "inlineDatum": null,
+      "scriptRef": null
+    }
+  ],
+  "fee": 360996,
+  "ttl": 152733264,
+  "certificates": [],
+  "withdrawals": null,
+  "update": null,
+  "auxiliaryDataHash": null,
+  "validityIntervalStart": 152733084,
+  "mint": [
+    {
+      "unit": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671.446a65644f726465725469636b6574",
+      "policyId": "04ea363a127872366ef2d3186325a25a5cee8826ff8a79dc7c8fa671",
+      "assetName": "DjedOrderTicket",
+      "assetNameBytes": "RGplZE9yZGVyVGlja2V0",
+      "quantity": 1
+    }
+  ],
+  "scriptDataHash": "0f41adfa561855b2381120955e13299ce287011527d3a1b02b18455e80354219",
+  "collateralInputs": [
+    {
+      "transactionId": "d3bf2ab6f407e124d4458674eb7b4597a2c1694f5da0de398ab2ab133288e589",
+      "index": 2
+    }
+  ],
+  "requiredSigners": [
+    "a7f86b99a649e2c44b9c06d09e7b3a9a714acdf107d3dbaecda33457"
+  ],
+  "netowrkId": 0,
+  "collateralReturn": null,
+  "totalCollateral": null,
+  "referenceInputs": [
+    {
+      "transactionId": "1a757d9840dfd77f5aa0223245b553d412328dadb10abc5225f4f8e53ae90ee0",
+      "index": 1
+    },
+    {
+      "transactionId": "496667849c741c3ed2ff3eb082939e0d89f1f8df58d28dc34f484fcbb66fc75d",
+      "index": 0
+    },
+    {
+      "transactionId": "a777500fc281a6f8d6dde8ea22dbf8eec542c3dcc5357e98d9862e31fc4e162a",
+      "index": 0
+    }
+  ],
+  "votingProcedures": null,
+  "proposalProcedures": null,
+  "currentTreasuryValue": null,
+  "donation": null
+}
